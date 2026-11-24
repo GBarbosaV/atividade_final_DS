@@ -1,15 +1,4 @@
-"""
-Implementação da interface ImagemPokemonService usando a PokeAPI.
 
-As imagens ficam no repositório oficial de sprites da PokeAPI:
-  - arte oficial (grande):  .../sprites/pokemon/other/official-artwork/{numero}.png
-  - sprite simples (reserva): .../sprites/pokemon/{numero}.png
-
-Como a URL é montada direto pelo número, NÃO lemos nenhum dado do
-Pokémon na API (atende a regra "não pegar informações da API").
-
-Usa apenas a biblioteca padrão (urllib) — não precisa instalar nada.
-"""
 
 import urllib.error
 import urllib.request
